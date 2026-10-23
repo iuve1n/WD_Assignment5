@@ -1,6 +1,6 @@
 # Assignment 5
 
-This project has JavaScript examples for the first script, variables and operators, and basic DOM manipulation.
+This project has JavaScript examples for variables, DOM manipulation, browser events, and a basic calculator.
 
 ## Technologies
 

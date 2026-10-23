@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator | Assignment 5</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="task7.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Assignment 5</a>
+      <div class="nav-links">
+        <a href="index.html">Task 0</a>
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+
+        <a href="task5.html">Task 5</a>
+        <a href="task6.html">Task 6</a>
+        <a aria-current="page" href="task7.html">Task 7</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-card">
+      <p class="eyebrow">Part 3 · Events</p>
+      <h1>Calculator</h1>
+      <div class="calculator-inputs">
+        <div>
+          <label for="first-number">First number</label>
+          <input class="text-input" id="first-number" type="number" step="any">
+        </div>
+        <div>
+          <label for="second-number">Second number</label>
+          <input class="text-input" id="second-number" type="number" step="any">
+        </div>
+      </div>
+      <div class="button-row">
+        <button id="add" type="button">Add</button>
+        <button id="subtract" type="button">Subtract</button>
+        <button id="multiply" type="button">Multiply</button>
+        <button id="divide" type="button">Divide</button>
+      </div>
+      <p id="calculation-result" class="note" aria-live="polite">Enter two numbers and choose an operation.</p>
+    </section>
+  </main>
+</body>
+</html>

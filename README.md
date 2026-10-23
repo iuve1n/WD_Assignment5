@@ -1,6 +1,6 @@
 # Assignment 5
 
-This project covers JavaScript basics, DOM changes, browser events, and a small to-do list.
+This project has JavaScript examples for the first script, variables and operators, and basic DOM manipulation.
 
 ## Technologies
 

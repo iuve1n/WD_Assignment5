@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-do list | Assignment 5</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="task8.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Assignment 5</a>
+      <div class="nav-links">
+        <a href="index.html">Task 0</a>
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+        <a href="task5.html">Task 5</a>
+        <a href="task6.html">Task 6</a>
+        <a href="task7.html">Task 7</a>
+        <a aria-current="page" href="task8.html">Task 8</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-card">
+      <p class="eyebrow">Part 4 · Mini Project</p>
+      <h1>To-do list</h1>
+      <form id="todo-form" class="todo-form">
+        <label for="task-input">New task</label>
+        <div class="todo-entry">
+          <input id="task-input" class="text-input" type="text" placeholder="What do you need to do?" required maxlength="120">
+          <button type="submit">Add Task</button>
+        </div>
+      </form>
+      <ul id="task-list" class="todo-list" aria-label="Tasks"></ul>
+      <p class="note">Tasks stay in the page while it is open. Reloading clears the list.</p>
+    </section>
+  </main>
+</body>
+</html>

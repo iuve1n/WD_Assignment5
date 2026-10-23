@@ -1,5 +1,5 @@
 const studentName = "Olzhas Assemgazy";
-const studentGroup = "SE_2528";
+const studentGroup = "SE-2528";
 const studentAge = 20;
 const isStudent = true;
 const firstNumber = 12;
